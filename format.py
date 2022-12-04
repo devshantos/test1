@@ -9,3 +9,9 @@ second_paragraph= 'Lorem Ipsum is simply dummy text of the printing and typesett
 
 article = function.wp_title(first_title_text)+function.wp_paragraph(first_paragraph)+function.wp_title(second_title)+function.wp_paragraph(second_paragraph)
 print(article)
+
+Shanto = input("Enter your name here: ")
+
+same= article, Shanto
+
+print(same)
